@@ -5,8 +5,18 @@
     padding:0;
 }
 /* Shared styles section */
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-unique-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 :root{
     --primary-color:rgb(78, 71, 255);
     --mini-text-color:rgba(137, 135, 161, 1);
@@ -14,22 +24,18 @@
 .display-flx-space-btwn{display: flex; justify-content:space-between;}
 .display-flx-space-aroud{display: flex; justify-content:space-around;}
 .btn-styles{background-color:rgb(78, 71, 255);padding: 12px 36px;color: #FFFF; border:none; border-radius: 10px;}
-.mini-text-properties{
-  font-family: "Libertinus Math", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color:var(--mini-text-color);
-}
-
 /* Body styling started form here */
-.libertinus-math-regular {
-  font-family: "Libertinus Math", system-ui;
-  font-weight: 400;
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
   font-style: normal;
 }
 body{
     background-color: rgb(245,248,255);
+    font-family: "Libertinus Math", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Header section styling started from here */
@@ -119,4 +125,21 @@ text-align: center;
 .user-content-child p{
   font-weight: 20px;
   color: var(--mini-text-color);
+}
+
+/* user feedback styles started from here */
+.user-feedback{
+  height: 345px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.user-feedback h2{
+  font-size: 42px;
+  font-weight: bold;
+}
+.feedback-container{
+  gap: 20px;
+  text-align:left;
 }
