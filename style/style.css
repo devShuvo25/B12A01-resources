@@ -147,6 +147,23 @@ text-align: center;
   justify-content: space-around;
   gap:24px;
 }
+.user-info{
+  display:flex;
+  justify-content: flex-start;
+  gap:20px;
+}
+.image-avatar{
+  height:100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.user-info-name {
+  font-weight: bold;
+  color: var(--mini-text-color);
+}
+.user-info-date{
+  color: var(--mini-text-color);
+}
 .user-feedback-child h4{
   font-size: 24px;
   font-weight:600;
