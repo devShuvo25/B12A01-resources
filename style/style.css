@@ -172,3 +172,35 @@ height:365px;
 width: 100%;
 border-radius: 48px;
 }
+/* user form section styling started from here */
+.user-form-section{
+  height: 600px;
+  gap:115px;
+  align-items: center;
+}
+.user-form-left h1{
+  font-size: 70px;
+}
+form label{
+  font-weight:500;
+  font-size: 18px;
+}
+form input,textarea{
+  display: block;
+}
+form input{
+  width:490px;
+  padding:20px 30px;
+  border:1px solid #D6DDED;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+form textarea{
+  padding:20px 30px;
+  border:1px solid #D6DDED;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.btn-input{
+  background-color:rgb(78, 71, 255);margin:16px 0; padding:20px 30px;;color: #FFFF; font-weight:bold; border-radius: 10px;
+}
