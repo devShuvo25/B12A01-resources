@@ -4,3 +4,20 @@
     margin:0;
     padding:0;
 }
+/* Shared styles section */
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primary-color:rgb(78, 71, 255);
+    --mini-text-color:rgba(137, 135, 161, 1);
+}
+.display-flx-space-btwn{display: flex; justify-content:space-between;}
+.display-flx-space-aroud{display: flex; justify-content:space-around;}
+.btn-styles{background-color:rgb(78, 71, 255);padding: 12px 36px;color: #FFFF; border:none; border-radius: 10px;}
+.mini-text-properties{
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color:var(--mini-text-color);
+}
