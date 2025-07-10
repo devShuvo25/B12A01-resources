@@ -18,6 +18,7 @@
 .display-flx-space-btwn{display: flex; justify-content:space-between;}
 .display-flx-space-aroud{display: flex; justify-content:space-around;}
 .btn-styles{background-color:rgb(78, 71, 255);padding: 12px 36px;color: #FFFF; border:none; border-radius: 10px;}
+.btn-styles:hover{background-color:rgb(255, 184, 5); transition:0.3s ease-in-out; cursor: pointer;}
 /* Body styling started form here */
 .raleway-font{
   font-family: "Raleway", sans-serif;
@@ -47,8 +48,8 @@ nav{
     height:110px;
     align-items: center;
 }
-nav h2{
-    font-size: 34px;
+nav h1{
+    font-size: 40px;
     font-weight: bold;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -173,8 +174,11 @@ text-align: center;
 .focus{
   height: 690px;
   width: 100%;
+  margin:100px 0;
+  background-color: #FFFF;
   padding:70px 140px;
   text-align: center;
+  border-radius:14px;
 }
 .focus p{
   margin: 20px 0;
