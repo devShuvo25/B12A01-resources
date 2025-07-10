@@ -204,3 +204,17 @@ form textarea{
 .btn-input{
   background-color:rgb(78, 71, 255);margin:16px 0; padding:20px 30px;;color: #FFFF; font-weight:bold; border-radius: 10px;
 }
+/* Footer section styling started from here */
+footer{
+  background-color: #FFF;
+  text-align: center;
+  padding: 100px 370px;
+
+}
+footer h1{
+  font-size: 80px;
+  text-transform: uppercase;
+  color:var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
