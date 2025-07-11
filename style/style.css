@@ -42,7 +42,7 @@ body{
 
 /* Header section styling started from here */
 header{
-    height:698px;
+    height:650px;
     max-width:1400px;
     background: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -70,12 +70,12 @@ span{
 }
 .banner h1{
     font-size: 65px;
-    margin: 120px 260px 40px 260px;
+    margin: 140px 260px 40px 260px;
 
 }
 /* Main section styling started from here */
 main{
-    padding: 120px 140px;
+    padding: 120px 140px 80px 140px;
 }
 .action{
     height:330px;
@@ -204,7 +204,7 @@ border-radius: 48px;
 }
 /* user form section styling started from here */
 .user-form-section{
-  height: 450px;
+  height:400px;
   gap:115px;
   align-items: center;
 }
