@@ -162,6 +162,7 @@ color:var(--primary-color);
   justify-content: flex-start;
   gap:20px;
 }
+
 .image-avatar{
   height:100%;
   width: 100%;
@@ -173,6 +174,8 @@ color:var(--primary-color);
 }
 .user-info-date{
   color: var(--mini-text-color);
+  font-weight: normal;
+  margin-top:5px;
 }
 .user-feedback-child h4{
   font-size: 24px;
