@@ -25,7 +25,7 @@
 .display-flx-space-btwn{display: flex; justify-content:space-between;}
 .display-flx-space-aroud{display: flex; justify-content:space-around;}
 .btn-styles{background-color:rgb(78, 71, 255);padding: 12px 36px;color: #FFFF; border:none; border-radius: 10px;}
-.btn-styles:hover{background-color:rgb(255, 184, 5); transition:0.3s ease-in-out; cursor: pointer;}
+.btn-styles:hover{background-color:rgb(255, 184, 5);transition:0.3s ease-in-out; cursor: pointer;}
 /* Body styling started form here */
 .raleway-font{
   font-family: "Raleway", sans-serif;
@@ -204,7 +204,7 @@ border-radius: 48px;
 }
 /* user form section styling started from here */
 .user-form-section{
-  height: 600px;
+  height: 450px;
   gap:115px;
   align-items: center;
 }
@@ -215,12 +215,11 @@ form label{
   font-weight:500;
   font-size: 18px;
 }
+
 form input,textarea{
+  width:400px;
   display: block;
-}
-form input{
-  width:490px;
-  padding:20px 30px;
+  padding:15px 25px;
   border:1px solid #D6DDED;
   border-radius: 10px;
   margin: 10px 0;
@@ -232,7 +231,7 @@ form textarea{
   margin: 10px 0;
 }
 .btn-input{
-  background-color:rgb(78, 71, 255);margin:16px 0; padding:20px 30px;;color: #FFFF; font-weight:bold; border-radius: 10px;
+  background-color:rgb(78, 71, 255);margin:16px 0; padding:15px 25px; color: #FFFF; font-weight:bold; border-radius: 10px;
 }
 /* Footer section styling started from here */
 footer{
